@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "variables.css";
+@import "screen/login.css";
+@import "components/screenHeader.css";
+@import "components/navBar.css";
+
+@import "screen/friend.css";
+@import "screen/chat.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "components/icon-row.css";
+@import "screen/setting.css";
+@import "components/alternative-screen-header.css";
+@import "screen/chatroom.css";
+@import "components/statusbar.css";
+@import "components/no-mobile.css";
+
+body {
+  background-color: #ede2b6;
+}
+
+.mainScreen {
+  padding: 0px var(--horizontal-space);
+}

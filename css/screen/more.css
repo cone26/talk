@@ -1,0 +1,38 @@
+.userComponent__number i {
+  color: tomato;
+  font-size: 14px;
+}
+.moreScreen .icon-row {
+  margin-top: 30px;
+}
+.moreSuggestion {
+  margin-top: 40px;
+  border-top: var(--mainBorder);
+  padding-top: 25px;
+}
+.moreSuggestion__title {
+  margin-bottom: 20px;
+}
+.moreSuggestion__icon {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.moreSuggestion__icon__image img {
+  width: 45px;
+  height: 45px;
+  border-radius: 30%;
+}
+.moreSuggestion__icons {
+  display: flex;
+
+  margin-left: 20px;
+}
+.moreSuggestion__icon__text {
+  font-size: 12px;
+  color: var(--grey);
+}
+.moreSuggestion__icon__image {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>friends - Animal Crossing</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- status bar -->
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusBar__column">
+        <span>15:05</span>
+      </div>
+      <div class="statusBar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header class="screenHeader">
+      <h2 class="header__title">Friends</h2>
+      <div class="header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="header__icons__cog"
+          ><i class="fas fa-cog fa-lg"><div class="dots"></div></i
+        ></span>
+      </div>
+
+      <div id="no-mobile">
+        <span>Your Screen is too big.</span>
+      </div>
+    </header>
+
+    <!-- friends notice -->
+    <a href="#" class="friendsNotice">
+      <span><i class="fas fa-info-circle"></i></span>
+      <span>Friends' Names Display</span>
+      <span><i class="fas fa-angle-right"></i></span>
+    </a>
+
+    <!-- my profile -->
+    <main class="friendsScreen">
+      <div class="userComponent">
+        <div class="userComponent__column">
+          <img
+            class="userComponent__avatar userComponent__avatar--xl"
+            src="pics/me.jpg"
+          />
+          <div class="userComponent__text">
+            <h4 class="userComponent__title">NOMIS</h4>
+            <!-- <p class="userComponent__subtitle">this text whatever</p> -->
+          </div>
+        </div>
+        <div class="userComponent__column"></div>
+      </div>
+      <div class="friendsScreen__channel">
+        <div class="friendsScreen__channel__header">
+          <span class="channelBar__text">Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="userComponent">
+          <div class="userComponent__column">
+            <img
+              class="userComponent__avatar userComponent__avatar--sm"
+              src="pics/me.jpg"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__title userComponent__title__notBold">
+                channel
+              </h4>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html"
+            ><i class="far fa-comment fa-lg">
+              <span class="nav__notification badge">1</span>
+            </i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="setting.html"
+            ><i class="fas fa-ellipsis-h fa-lg"
+              ><div class="nav__more__notification"></div></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fas fa-leaf"></i>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+.welcomeHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  color: var(--brown);
+}
+.welcomeHeader__title {
+  margin-bottom: 25px;
+}
+.welcomeHeader__text {
+  width: 230px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 20px;
+}
+.loginForm input {
+  padding: 12px 0px;
+  border: none;
+  outline: none;
+  margin: 5px 0px;
+  color: var(--brown);
+}
+
+.loginForm input:not([type="submit"]) {
+  border-bottom: 1px solid lightyellow;
+  transition: border-color 0.3s ease-in-out;
+  background-color: #ede2b6;
+}
+.loginForm input:focus {
+  border-color: var(--mint);
+}
+.loginForm__btn {
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginForm__btn:focus {
+  background-color: var(--mint);
+}
+.loginForm__link {
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  color: var(--brown);
+  margin-top: 10px;
+}

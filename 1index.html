@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Animal Crossing</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- status bar -->
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusBar__column">
+        <span>15:05</span>
+      </div>
+      <div class="statusBar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- welcome -->
+    <header class="welcomeHeader">
+      <h3 class="welcomeHeader__title">Welcome to Animal Crossing</h3>
+      <p class="welcomeHeader__text">
+        If you have a Nintendo Account, log in with your email.
+      </p>
+    </header>
+
+    <!-- loginform -->
+    <form class="loginForm" action="friends.html">
+      <input
+        required
+        class="loginForm__info"
+        type="email"
+        placeholder="Email"
+      />
+      <input
+        required
+        class="loginForm__info"
+        type="password"
+        placeholder="Password"
+      />
+      <input class="loginForm__btn" type="submit" value="Log In" />
+      <input class="loginForm__btn" type="submit" value="Sign UP" />
+      <a class="loginForm__link" href="#">Find Nintendo Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>Your Screen is too big.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

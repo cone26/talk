@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Animal Crossing</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- status bar -->
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusBar__column">
+        <span>15:05</span>
+      </div>
+      <div class="statusBar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <span><i class="fas fa-angle-left fa-2x"></i></span
+        ></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Setting</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="mainScreen moreScreen">
+      <ul class="settings-list">
+        <li class="settings-setting">
+          <div class="setings-setting__column">
+            <span><i class="fas fa-bullhorn"></i></span>
+            <span>Notices</span>
+          </div>
+          <div class="setings-setting__column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="setings-setting__column">
+            <span><i class="fas fa-flask"></i></span>
+            <span>Nintendo Lab</span>
+          </div>
+          <div class="setings-setting__column"></div>
+        </li>
+        <li class="settings-setting">
+          <div class="setings-setting__column">
+            <span><i class="fas fa-info-circle"></i></span>
+            <span>Version</span>
+          </div>
+
+          <div class="setings-setting__column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
+
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html"
+            ><i class="far fa-comment fa-lg">
+              <span class="nav__notification">1</span>
+            </i></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-lg"
+              ><div class="nav__more__notification"></div></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <div id="no-mobile">
+      <span>Your Screen is too big.</span>
+    </div>
+  </body>
+</html>

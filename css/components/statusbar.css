@@ -1,0 +1,24 @@
+.statusBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 5px 0px 5px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: white;
+  background-color: var(--mint);
+  height: 20px;
+  width: 100%;
+}
+.statusBar__column:nth-child(2) {
+  font-weight: 600;
+}
+.statusBar__column i {
+  font-size: 12px;
+}
+.statusBar__column:first-child {
+  margin-right: auto;
+}
+.statusBar__column:last-child {
+  margin-left: auto;
+}

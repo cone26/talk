@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Animal Crossing</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- status bar -->
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusBar__column">
+        <span>15:05</span>
+      </div>
+      <div class="statusBar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header class="screenHeader">
+      <h2 class="header__title">Find</h2>
+      <div class="header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span class="header__icons__cog"
+          ><i class="fas fa-cog fa-lg"><div class="dots"></div></i
+        ></span>
+      </div>
+    </header>
+
+    <main class="mainScreen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i><span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+      <div class="recommendedFriends">
+        <h6 class="recommendedFriends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="openChat">
+        <div class="openChat__header">
+          <h4>Open Chat</h4>
+          <span>
+            Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="openPost">
+          <div class="openPost__column">
+            <h5 class="openPost__title">#RAMI</h5>
+            <h6 class="openPost__hashtags">#animalcrossing</h6>
+            <div class="openPost__member">
+              <img src="pics/me.jpg" />
+              <span class="openPost__member-count">802mambers</span>
+              <div class="divider"></div>
+              <span class="openPost__member-status">Active</span>
+            </div>
+          </div>
+          <div class="openPost__column">
+            <div class="openPost__photo">
+              <img src="pics/rami.png" />
+              <div class="openPost__heart-count">
+                <i class="fas fa-heart fa-xs"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html"
+            ><i class="far fa-comment fa-lg">
+              <span class="nav__notification">1</span>
+            </i></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-lg"
+              ><div class="nav__more__notification"></div></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your Screen is too big.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

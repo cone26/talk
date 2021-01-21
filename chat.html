@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat - Animal Crossing</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- status bar -->
+    <div class="statusBar">
+      <div class="statusBar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="statusBar__column">
+        <span>15:05</span>
+      </div>
+      <div class="statusBar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header class="screenHeader">
+      <h2 class="header__title">Chat</h2>
+      <div class="header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span class="header__icons__cog"
+          ><i class="fas fa-cog fa-lg"><div class="dots"></div></i
+        ></span>
+      </div>
+    </header>
+
+    <!-- my profile -->
+    <main class="mainScreen">
+      <a href="chatroom.html">
+        <div class="userComponent">
+          <div class="userComponent__column">
+            <img
+              class="userComponent__avatar userComponent__avatar"
+              src="pics/me.jpg"
+            />
+            <div class="userComponent__text">
+              <h4 class="userComponent__title">NOMIS</h4>
+              <p class="userComponent__subtitle">
+                Plaese check My Nintendo Account Info
+              </p>
+            </div>
+          </div>
+          <div class="userComponent__column">
+            <span class="userComponent__time">21:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html"
+            ><i class="fas fa-comment fa-lg">
+              <span class="nav__notification">1</span>
+            </i></a
+          >
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-lg"
+              ><div class="nav__more__notification"></div></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your Screen is too big.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+.friendsNotice {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  color: var(--brown);
+  background-color: rgb(228, 228, 178);
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+.header__title {
+  font-size: 26px;
+  font-weight: 600;
+}
+.friendsNotice i {
+  color: rgb(197, 188, 161);
+  padding: 0px 5px;
+}
+
+.channelBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  font-size: 12px;
+  color: rgb(156, 150, 131);
+}
+.channel {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px 0px 20px;
+  position: relative;
+  color: var(--brown);
+}
+.channel img {
+  width: 35px;
+  height: 35px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+.channel__name {
+  font-size: 17px;
+}
+.channel__notification {
+  position: absolute;
+  right: -5px;
+  font-size: 14px;
+  color: rgb(156, 150, 131);
+}
+
+.friendsScreen {
+  padding: 0px var(--horizontal-space);
+}
+.friendsScreen__channel {
+  margin-top: 20px;
+  border-top: var(--mainBorder);
+  padding-top: 15px;
+}
+.friendsScreen__channel__header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey);
+}
+.header__icons__cog {
+  position: relative;
+}
+.dots {
+  position: absolute;
+  right: 1px;
+  top: -5px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: #e6eb8d;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: #32a143;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
